@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+	padding: 10px 0;
+}
+
+.container {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.logo {
+	display: inline-block;
+	margin-right: 10px;
+}
+.logo img{
+	width: 100px;
+}
+header hr {
+	width: 55px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #6d6d6d;
+}
+header span {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #6d6d6d;
+	padding-left: 10px;
+}
+
+
+
+/*about section*/
+.about {
+	padding: 50px 0;
+	margin-bottom: 80px;
+}
+.about h1 {
+	font-size: 85px;
+	line-height: 0.9;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-variant-caps: titling-case;
+	margin-bottom: 50px;
+	max-width: 700px;
+}
+.about p {
+	font-size: 22px;
+	font-weight: 500;
+	max-width: 700px;
+}
+
+
+
+/*geospatial section*/
+.geospatial {
+	margin-bottom: 50px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+.content h2 {
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.content p {
+	font-size: 19px;
+	font-weight: 200;
+	margin-bottom: 40px;
+	max-width: 700px;
+}
+.content h3 {
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+
+.content-img {
+	width: 30%;
+	float: right;
+}
+.content-img img {
+	width: 400px;
+}
+
+
+
+/*usa section*/
+.usa {
+	margin-bottom: 50px;
+}
+
+
+/*client section*/
+.clientSection {
+	padding: 100px 0;
+}
+
+.heading {
+	margin-bottom: 50px;
+}
+.heading hr {
+	width: 55px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #6d6d6d;
+}
+.heading span {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #6d6d6d;
+	padding-left: 10px;
+}
+.heading h4 {
+	font-size: 25px;
+	text-transform: capitalize;
+	max-width: 450px;
+	margin-top: 20px;
+}
+
+.client {
+	width: 16.666%;
+	float: left;
+}
+
+}
+.client img {
+	max-width: 100%;
+}
+
+
+/*feature section*/
+.featureSection {}
+.feature {
+	width: 33.333%;
+	float: left;
+}
+.feature img {
+	max-height: 180px; 
+	max-width: 340px;
+}
+.feature h5 {
+	font-size: 25px;
+
+}
+
+
+/*footer*/
+footer {
+	background-color: #252525;
+	padding: 100px 0px 20px 0px;
+	margin-top: 75px;	
+}
+footer h6 {
+	color: #fff;
+	font-size: 20px;
+	max-width: 630px;
+}
+footer a {
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+	padding-bottom: 3px;
+}
+footer p {
+	color: white;
+	font-size: 12px;
+
+}
+footer p a {
+	border-bottom: 0.5px solid white;
+	margin-left: 15px;
+}
+
